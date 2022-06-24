@@ -2,7 +2,7 @@
 name: "\U0001F680 Enhancement"
 about: 'Suggest an idea for this project.'
 title: 'Suggest an idea for this project.'
-labels: 'type:enhancement'
+labels: 'enhancement'
 assignees: 'evrpress'
 ---
 
