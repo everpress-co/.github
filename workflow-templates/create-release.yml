@@ -1,7 +1,15 @@
-name: Manual build and release
+name: Create release workflow
 
 on:
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      config-path:
+        required: true
+        type: string
+    secrets:
+      personal_access_token:
+        required: true
 
 jobs:
   build:
